@@ -1012,4 +1012,17 @@ color:var(--text-secondary);
 .ai-text {
   white-space: pre-wrap;
   line-height: 1.4;
+}
+
+
+.ai-response {
+  display: none;    /* não ocupa espaço */
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.ai-response.show {
+  display: block;   /* aparece e ocupa espaço */
+  opacity: 1;
+  transform: translateY(0);
   }
